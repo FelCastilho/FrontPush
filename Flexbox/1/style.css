@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+
+    background-color: #1a1a1a;
+}
+
+header{
+    height: 72px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #040404;
+}
+
+.nav{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 8px 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo{
+    width: 48px;
+    height: 48px;
+
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+.nav-menu{
+    list-style: none;
+
+    display: flex;
+}
+
+.nav-item{
+    margin: 0px 16px;
+}
+
+.nav-link{
+    display: inline-block;
+
+    padding: 8px 16px;
+
+    text-decoration: none;
+
+    color: #fff;
+
+    transition: .5s ease;
+}
+
+.nav-link:hover{
+   color: #222;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 8px 16px;
+    margin: 0 auto;
+
+    display: flex;
+
+    /*Definir o pai como flex wrap e o flex basis dos filhos*/
+    flex-wrap: wrap;
+}
+
+.container-item-1{
+    /*o 3 faz com que esse conteudo fique maior*/
+    /*o flex basis de 400 permite ele quebrar ao chegar no limite*/
+    
+    flex: 6 1 400px; 
+    margin-right: 8px;
+
+    padding: 16px 0px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.video-main{
+    background-color: #ccc;
+    width: 100%;
+    height: 340px;
+    border-radius: 10px;
+}
+
+.container-item-2{
+    padding: 16px 0px;
+    flex: 1 1 200px;
+    margin-left: 8px;
+    color: white;
+}
+
+h3{
+    line-height: 130%;
+    margin: 4ox 0px;
+
+    color: #fff;
+}
+
+p{
+    color: #7777;
+}
+
+.video-side{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.thumb{
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #ccc;
+    flex: 4 1 auto;
+    margin-right: 8px;
+}
+
+.description{
+    flex: 1 1 auto;
+    margin-left: 8px;
+}
