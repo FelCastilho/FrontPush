@@ -29,30 +29,15 @@ body {
   background-color: #fff;
 }
 
-.list {
-  border: 1px solid red;
-  margin-top: 16px;
-  padding: 16px;
-}
-.list li {
-  background-color: blue;
-}
-.list li a {
-  text-decoration: none;
-  color: #fff;
-}
-.list li a:hover {
-  background-color: red;
-}
-.list li a::after {
-  background-color: red;
-}
-.list li a::before {
-  background-color: red;
-}
-
 p {
   color: #ccc;
-  border-style: solid;
-  border-color: purple;
+  font-size: 24px;
+  background-color: red;
+  color: blue;
+  font-size: 40px;
+}
+@media screen and (max-width: 720px) {
+  p {
+    font-size: 48px;
+  }
 }/*# sourceMappingURL=style.css.map */

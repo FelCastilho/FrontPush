@@ -1,5 +1,27 @@
 @import "colors.scss";
 
+
+@mixin responsive{
+
+    background-color: red;
+
+    @media screen and (max-width: 720px){
+        @content;
+    }
+
+}
+
+@mixin responsive-tablet($cor, $tamanho){
+
+    color: $cor;
+    font-size: $tamanho;
+
+    @media screen and (max-width: 960px){
+        @content;
+    }
+
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -35,38 +57,15 @@ body{
 
 }
 
-.list{
-    border: 1px solid red;
-    margin-top: 16px;
-    padding: 16px;
-
-    li{
-        background-color: blue;
-
-        a{
-            text-decoration: none;
-            color: $branco;
-
-            &:hover{
-                background-color: red;
-            }
-
-            &::after{
-                background-color: red;
-            }
-
-            &::before{
-                background-color: red;
-            }
-        }
-    }
-}
-
 p{
     color: $cinza;
+    font-size: 24px;
 
-    border: {
-        style: solid;
-        color: purple;
+    @include responsive(){
+        font-size: 48px;
+    }
+
+    @include responsive-tablet(blue, 40px){
     }
 }
+
