@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: #0c0c0c;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 48px auto;
+  padding: 48px 16px;
+  border: 2px solid #3f3f3f;
+}
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.grid-1 {
+  width: calc(40% - gutter);
+  background-color: #222;
+  border: 1px solid black;
+  height: 72px;
+  float: left;
+}
+
+.grid-2 {
+  width: calc(40% - gutter);
+  background-color: #222;
+  border: 1px solid black;
+  height: 72px;
+  float: left;
+}
+
+.grid-3 {
+  width: calc(40% - gutter);
+  background-color: #222;
+  border: 1px solid black;
+  height: 72px;
+  float: left;
+}
+
+.grid-4 {
+  width: calc(40% - gutter);
+  background-color: #222;
+  border: 1px solid black;
+  height: 72px;
+  float: left;
+}
+
+.grid-5 {
+  width: calc(40% - gutter);
+  background-color: #222;
+  border: 1px solid black;
+  height: 72px;
+  float: left;
+}
+
+.grid-6 {
+  width: calc(40% - gutter);
+  background-color: #222;
+  border: 1px solid black;
+  height: 72px;
+  float: left;
+}
+
+.grid-7 {
+  width: calc(40% - gutter);
+  background-color: #222;
+  border: 1px solid black;
+  height: 72px;
+  float: left;
+}
+
+.grid-8 {
+  width: calc(40% - gutter);
+  background-color: #222;
+  border: 1px solid black;
+  height: 72px;
+  float: left;
+}
+
+.grid-9 {
+  width: calc(40% - gutter);
+  background-color: #222;
+  border: 1px solid black;
+  height: 72px;
+  float: left;
+}
+
+.grid-10 {
+  width: calc(40% - gutter);
+  background-color: #222;
+  border: 1px solid black;
+  height: 72px;
+  float: left;
+}
+
+.grid-11 {
+  width: calc(40% - gutter);
+  background-color: #222;
+  border: 1px solid black;
+  height: 72px;
+  float: left;
+}
+
+.grid-12 {
+  width: calc(40% - gutter);
+  background-color: #222;
+  border: 1px solid black;
+  height: 72px;
+  float: left;
+}/*# sourceMappingURL=style.css.map */
